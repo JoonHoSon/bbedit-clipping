@@ -1,0 +1,19 @@
+#INDENT#$.ajax(
+    {
+        type: '#INSERTION#',
+        url: '',
+        data: parameter,
+        dataType: 'json'
+    }
+).done(function (d) {
+    if (d.result === 'y') {
+    } else {
+        if (d.message !== null && d.message !== undefined) {
+            alert(d.message);
+        } else {
+            alert('');
+        }
+    }
+}).fail(function (xhq, message) {
+    alert(message);
+});

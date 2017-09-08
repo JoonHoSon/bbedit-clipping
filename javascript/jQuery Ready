@@ -1,0 +1,3 @@
+#INDENT#(function ($) {
+    #INSERTION#
+}(jQuery));

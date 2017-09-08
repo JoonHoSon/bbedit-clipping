@@ -1,0 +1,3 @@
+#INDENT#if ($.trim(#PLACEHOLDERSTART#target#PLACEHOLDEREND#.val()) === '') {
+    #PLACEHOLDERSTART#logic#PLACEHOLDEREND#
+}
